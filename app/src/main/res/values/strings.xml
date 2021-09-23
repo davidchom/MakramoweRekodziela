@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Makramowe Rekodziela</string>
+    <string name="tekstowePole">Wybierz co chcesz policzyc:</string>
+    <string name="przycisk_wyboru">Zatwierdz</string>
+    <string name="textView">Podaj szerokosc firany (w cm):</string>
+    <string name="textView2">Podaj dlugosc RZADKIEJ czesci firany  (w cm):</string>
+    <string name="textView3">Podaj dlugosc GESTEJ czesci firany  (w cm):</string>
+    <string name="zatwierdzenieFirany">Zatwierdz</string>
+    <string name="textView4">Podaj szerokosc zazdrostki (w cm):</string>
+    <string name="textView5">Podaj dlugosc zazdrostki (w cm): </string>
+
+    <string name = "pierwszaLinijkaZazdrostki">Potrzebujesz tyle ilosci sznurka: </string>
+    <string name = "pierwszaOdpowiedzZazdrostki">...</string>
+    <string name = "drugaLinijkaZazdrostki">Kazdy dlugosci [m]: </string>
+    <string name = "drugaOdpowiedzZazdrostki">...</string>
+    <string name = "trzeciaLinijkaZazdrostki">Zatem calosc wyniesie (metrow sznurka): </string>
+    <string name = "trzeciaOdpowiedzZazdrostki">...</string>
+    <string name = "czwartaLinijkaZazdrostki">Cena materialu wynosi: </string>
+    <string name = "czwartaOdpowiedzZazdrostki">...</string>
+    <string name = "piataLinijkaZazdrostki">Cena (wraz z uwzglednieniem zarobku) wynosi: </string>
+    <string name = "piataOdpowiedzZazdrostki">...</string>
+
+    <string name = "rzadkaCzesc">RZADKA CZESC:</string>
+    <string name = "pierwszaLinijkaFirany">Potrzebujesz na to tyle sztuk sznurka: </string>
+    <string name = "pierwszaOdpowiedzFirany">...</string>
+    <string name = "drugaLinijkaFirany">Kazdy jest dlugosci [m]: </string>
+    <string name = "drugaOdpowiedzFirany">...</string>
+    <string name = "trzeciaLinijkaFirany">Lacznie potrzebujesz tyle metrow sznurka: </string>
+    <string name = "trzeciaOdpowiedzFirany">...</string>
+
+    <string name = "gestaCzesc">GESTA CZESC:</string>
+    <string name = "czwartaOdpowiedzFirany">...</string>
+    <string name = "piataOdpowiedzFirany">...</string>
+    <string name = "szostaOdpowiedzFirany">...</string>
+
+    <string name = "caloscKasa">Ostatecznie wyjdzie tyle metrow sznurka: </string>
+    <string name = "caloscOdpowiedzKasa">...</string>
+
+    <string name = "ceny">CENY:</string>
+    <string name = "pierwszaCena">Koszt za material wynosi: </string>
+    <string name = "pierwszaOdpowiedzCena">...</string>
+    <string name = "drugaCena">Wycenione zostalo na: </string>
+    <string name = "drugaOdpowiedzCena">...</string>
+
+    <string name = "sendMessageF">Wyślij wiadomość do klienta</string>
+
+    <string name = "chooser">Wybierz aplikację do wysłania wiadomości</string>
+
+    <string-array name="wybor_czego">
+        <item>Firana</item>
+        <item>Zazdrostka</item>
+    </string-array>
+</resources>

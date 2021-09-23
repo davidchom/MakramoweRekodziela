@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.Chomiak.rekodzielamakramowe.Zazdrostki">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/textView4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/editTextNumber4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLines="5" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="@string/textView5"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <EditText
+        android:id="@+id/editTextNumber5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:maxLines="5" />
+
+    <Button
+        android:id="@+id/zatwierdzenieZazdrostki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_marginTop="40dp"
+        android:onClick="zatwierdzenieZazdrostki"
+        android:text="@string/zatwierdzenieFirany"
+        app:backgroundTint="#C903A9F4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/pierwszaLinijkaZazdrostki"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pierwszaLinijkaZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/pierwszaOdpowiedzZazdrostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pierwszaOdpowiedzZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/drugaLinijkaZazdrostki"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/drugaLinijkaZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/drugaOdpowiedzZazdrostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/drugaOdpowiedzZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/trzeciaLinijkaZazdrostki"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/trzeciaLinijkaZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/trzeciaOdpowiedzZazdrostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/trzeciaOdpowiedzZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/czwartaLinijkaZazdrostki"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/czwartaLinijkaZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/czwartaOdpowiedzZazdrostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/czwartaOdpowiedzZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/piataLinijkaZazdrostki"
+            android:layout_width="301dp"
+            android:layout_height="wrap_content"
+            android:text="@string/piataLinijkaZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        <TextView
+            android:id="@+id/piataOdpowiedzZazdrostki"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/piataOdpowiedzZazdrostki"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+    </LinearLayout>
+
+            <Button
+                android:id="@+id/sendMessageZ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text = "@string/sendMessageF"
+                app:backgroundTint="#F403B0"
+                android:onClick="onClickSendMessageZ"/>
+
+        </LinearLayout>
+
+    </TableLayout>
+</ScrollView>
